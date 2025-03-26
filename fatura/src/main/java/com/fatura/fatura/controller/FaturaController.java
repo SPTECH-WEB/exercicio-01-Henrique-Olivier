@@ -1,14 +1,15 @@
-package controller;
+package com.fatura.fatura.controller;
 
-import model.Fatura;
+import com.fatura.fatura.model.Fatura;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.FaturaService;
+import com.fatura.fatura.service.FaturaService;
+import jakarta.validation.Valid;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/faturas")
+@RequestMapping("/faturas")
 public class FaturaController {
     private final FaturaService faturaService;
 

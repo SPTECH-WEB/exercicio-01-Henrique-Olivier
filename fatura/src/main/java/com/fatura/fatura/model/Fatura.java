@@ -1,4 +1,4 @@
-package model;
+package com.fatura.fatura.model;
 
 
 import jakarta.persistence.*;

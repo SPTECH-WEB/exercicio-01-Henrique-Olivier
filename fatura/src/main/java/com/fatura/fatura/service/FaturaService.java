@@ -1,8 +1,8 @@
-package service;
+package com.fatura.fatura.service;
 
-import model.Fatura;
+import com.fatura.fatura.model.Fatura;
 import org.springframework.stereotype.Service;
-import repository.FaturaRepository;
+import com.fatura.fatura.repository.FaturaRepository;
 
 import java.util.List;
 
