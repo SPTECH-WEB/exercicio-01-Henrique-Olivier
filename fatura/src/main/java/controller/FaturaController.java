@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/faturas")
-public class FaturaController {d
+public class FaturaController {
     private final FaturaService faturaService;
 
     public FaturaController(FaturaService faturaService) {
